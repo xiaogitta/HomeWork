@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../phtoto/ui934.jpg);
+	/* animation: bodyani 48s ease-in-out 3 normal; */
+	background-size: cover;
+}
+/* @keyframes bodyani{
+	0%{background-image: url(../phtoto/ui934.jpg);}
+	55%{background-image: url(../phtoto/ui23.png);}
+	95%{background-image: url(../phtoto/ui2.jpg);}
+	100%{background-image: url(../phtoto/ui934.jpg);}
+} */
+p{
+	font-family: Stay-Classy;
+	font-size: 1em;
+}
+#box_main{
+	width: 780px;
+	/* height: 700px; */
+	margin-top: 20px;
+	margin-left: 200px;
+	border: solid;
+}
+#box_nav{
+	width: auto;
+	height: auto;
+	position: fixed;
+	top: 50px;
+	right: 100px;
+	border-radius: 10px;
+	background-color: #707070;
+}
+.li2 a:hover{
+	/* 承接home.css设置当前页面下navbar */
+	border-radius: 10px;
+}
+.main_nav{
+	width: auto;
+	height: 37px;
+	background-color: rgba(0, 126, 126, 0.8)
+}
+.li3{
+	float: left;
+}
+.li3 a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+.li3 a:hover{
+	background-color: #e999be;
+}
+.box_main2{
+	width: 780px;
+	/* height: 600px; */
+	height: auto;
+	background-color: rgba(0, 255, 255, 0.5);
+	/* 定义空内容，为:target铺垫 */
+	font-size: 18px;
+}
+#myself{
+	width: 640px;
+	margin-left: 125px;
+	/* background-color: #001818; */
+}
+
+.box_main3{
+	width: 780px;
+	height: auto;
+	/* height: 600px; */
+	background-color: rgba(85, 255, 255, 0.5);
+	display: none;
+}
+progress{
+	width: 500px;
+	height: 50px;
+	display: block;
+}
+progress:hover{
+	width: 520px;
+	height: 52px;
+}
+.box_main4{
+	width: 780px;
+	/* height: 600px; */
+	height: auto;
+	/* background-color: cornflowerblue; */
+	display: none;
+}
+table{
+	margin: 0 auto;
+}
+th{
+	background-color: #8a81ab;
+}
+tr:nth-child(odd){
+	background-color: #00FFFF;
+}
+/* 奇偶选择器 */
+tr:nth-child(even){
+	background-color: #8B9DFF;
+}
+:target{
+	/* :target选择器课本112页介绍 */
+	display: block;
+}

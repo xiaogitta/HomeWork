@@ -1,0 +1,10 @@
+var date=new Date();
+var year=document.getElementById('Year');
+var month=document.querySelector('#Month');
+var day=document.querySelector('#Day');
+var week=document.querySelector('#Week');
+year.innerHTML=date.getFullYear()+'年';
+month.innerHTML=date.getMonth()+1+'月';
+day.innerHTML=date.getDate()+'日';
+var weeks=['星期一','星期二','星期三','星期四','星期五','星期六','星期日']
+week.innerHTML=weeks[date.getDay()];

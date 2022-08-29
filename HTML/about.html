@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于</title>
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				background-color: rgba(185,185,185,0.8);
+			}
+			@font-face {
+				font-family:Stay-Classy;
+				src: url("../Stay-Classy/Stay Classy SLDT.ttf");
+			}
+			body:hover{
+				animation: moving3 10s linear infinite alternate;
+			}
+			h1{
+				text-align: center;
+			}
+			p{
+				white-space: pre;
+				/* 空格不做处理 */
+			}
+			a{
+				color: red;
+				text-decoration: none;
+			}
+			div{
+				margin: 0 auto;
+				margin-top: 70px;
+				background-color: rgba(183,182,180,0.4);
+				height: 500px;
+				width: 500px;
+			}
+			@keyframes moving {
+			    form {
+			        transform: translateY(0);
+			    }
+			    to {
+			        transform: translateY(-1000px);
+			    }
+			}
+			img{
+				width: 120px;
+				animation: moving 10s linear infinite alternate;
+			}
+			@keyframes moving2{
+			    form {
+			        transform: translateX(0);
+			    }
+			    to {
+			        transform: translateX(1000px);
+			    }
+			}
+			.img{
+				width: 120px;
+				animation: moving2 12s linear infinite alternate;
+			}
+			@keyframes moving3{
+			    0%{background-color: orange;}
+				10%{background-color: orangered;}
+				40%{background-color: orchid;}
+				50%{background-color: coral;}
+				80%{background-color: cornflowerblue;}
+				100%{background-color: orchid;}
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+		<img class="img"src="../phtoto/0003.gif" >
+			<h1>关于</h1>
+<p><span style="font-family: Stay-Classy;">开发：DuanCheng
+测试：DuanCheng</span>
+本项目采用HTML5+CSS3技术
+参考网站<span><a href="https://www.runoob.com/"target="_blank">菜鸟教程</a> <a href="https://www.bilibili.com/"target="_blank">哔哩哔哩</a> <a href="https://github.com/"target="_blank">GitHub</a></span>
+本项目为HTML+CSS网页前端设计大一期末作业。
+作业目的：巩固知识点，旨在尝试不同的属性的设计。
+项目制作使用14英寸笔记本，学艺不精，暂无法设置多属性自动适应
+希望老师调整窗口大小观看评定
+			</p>
+		</div>
+		<img src="../phtoto/0001.gif">
+	</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				font-family: 'Open Sans',sans-serif;
+				background-image: url(phtoto/ui934.jpg);
+				background-size: cover;
+			}
+			div{
+				width: 300px;
+				height: 300px;
+				margin: 0 auto;
+				margin-top: 200px;
+				letter-spacing: 1px;
+			}
+			h1{
+				color: #52f8f8;
+				text-shadow:0 0 30px;
+				text-align: center;
+				font-size: 2em;
+			}
+			input{
+				width: 280px;
+				height: 28px;
+				margin-bottom: 6px;
+				font-size: 15px;
+				outline: none;
+				border-top: 1px solid #312E3D;
+				border-left: 1px solid #312E3D;    
+				border-right: 1px solid #312E3D;    
+				border-bottom: 1px solid #56536A;    
+				border-radius: 4px;
+				background-color: rgba(71, 0, 112, 0.6);
+			}
+			input:hover{
+				font-size: 110%;
+			}
+			a{
+				width: 285px;
+				min-height: 28px;
+				margin: 0;
+				display: block;
+				border-radius: 5px;
+				font-size: 15px;
+				background-color: rgba(189, 189, 189, 0.9);
+			}
+			a{
+				display: block;
+				text-align: center;
+				text-decoration: none;
+			}
+			a:hover{
+				font-size: 110%;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>Login</h1>
+			<form  method="post">
+				<input type="text" name="login" placeholder="用户名"maxlength="24"required="required"/>
+				<input type="password" name="password" placeholder="密码" maxlength="24"required="required"/>
+				<!-- <button type="submit">后台搞不懂，拿超链接凑</button> -->
+				<a href="HTML/home.html">登录</a>
+				<a href="HTML/register.html"style="width:60px;height: 25px;float: right;background-color: rgba(255, 255, 255, 0.1)">注册</a>
+			</form>
+		</div>
+	</body>
+</html>

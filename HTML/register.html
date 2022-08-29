@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Register</title>
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				background-image: url(../phtoto/ui934.jpg);
+				background-size: cover;
+			}
+			div{
+				height: 460px;
+				width: 380px;
+				background-color: rgba(116, 116, 116, 0.8);
+				margin: 0 auto;
+			}
+			h2{
+				text-align: center;
+			}
+			p{
+				margin-left: 30px;
+			}
+			input:hover{
+				font-size: 99%;
+			}
+			textarea:hover{
+				font-size: 120%;
+			}
+			a{
+				display: block;
+				margin-top: 10px;
+				margin-left: 80px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="big_box">
+			<h2>欢迎注册</h2>
+			<hr >
+			<form action="注册" method="get">
+				<p>用户名称：<span style="margin-left: 10px;"><input type="text"marequired="required"max="24"placeholder="用户名"/></span></p>
+				<p>用户邮箱：<span style="margin-left: 10px;"><input type="email" required="required"placeholder="email@163.com"></span></p>
+				<p>密码：<span style="margin-left: 40px;"><input type="password"required="required"min="6"max="24"placeholder="输入不小于六位数密码" /></span></p>
+				<p>性别：<span><input type="radio"name="sex"/>男<input type="radio"name="sex" />女</span></p>
+				<p>出生日期：<span style="margin-left: 5px;"><input type="date"value="2002-01-01"></span></p>
+				<p>兴趣爱好：<span><input type="checkbox"name="like">篮球
+				<input type="checkbox"name="like">足球
+				<input type="checkbox"name="like">音乐
+				<input type="checkbox"name="like">美术
+				<input type="checkbox"name="like">其他</span></p>
+				<p>个人简介<span><textarea cols="30" rows="3" placeholder="例：个人长项，兴趣爱好"></textarea></span></p><!-- 定义输入框 -->
+				<input type="reset"value="注册"style="margin-left: 140px;width: 100px;height: 30px;background-color: rgba(89, 89, 89, 0.3);" onclick="alert('暂时无法注册')"/>
+				<br>
+				<a href="home.html">暂时无法注册，点我直接登录</a>
+			</form>
+		</div>
+	</body>
+</html>
